@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using Week3.Classi;
+using Week3.Collections;
+using Week3.Collections.Generic;
 using Week3.Polimorfismo;
 using Week3.Strutture;
 //using static Week3.Classi.Persona;
@@ -124,10 +126,20 @@ namespace Week3
 
             #endregion
 
+            #region COLLECTIONS
+            Console.Clear();
+            //ArrayExercises.Run();
+            //ArrayListExercises.Run();
+            //HashTableExercises.Run();
+            //QueueExercises.Run();
+            //StackExercises.Run();
+            #endregion
 
-            ArrayList veicoli;
-            Stack stack;
-            Queue queue;
+            #region COLLECTIONS GENERIC
+            //ListExercise.Run();
+            DictionaryGeneric.Run();
+            #endregion
+
         }
 
         public static void Somma(int a, int b)
