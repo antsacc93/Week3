@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week3.Classi
 {
-    public class Persona
+    public class Persona 
     {
         private string _nome;
         private string _cognome;
